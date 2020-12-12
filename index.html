@@ -1,0 +1,91 @@
+<!doctype html>
+<!-- saved from url=http://liuzhiyong.me/ -->
+<html>
+
+<head>
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Helvetica, Tahoma, Arial;
+    }
+
+    a:link {
+      color: blue;
+    }
+
+    a:visited {
+      color: blue;
+    }
+
+    a:hover {
+      color: blue;
+    }
+
+    a:active {
+      color: blue;
+    }
+
+    #content {
+      width: 280px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 25px;
+      text-align: center;
+    }
+
+    #link {
+      font-size: 50px;
+      text-decoration: none;
+    }
+
+    #bar {
+      width: 100%;
+      height: 6px;
+      background-color: CadetBlue;
+    }
+
+    #progress {
+      width: 0%;
+      height: 6px;
+      background-color: Indigo;
+      position: relative;
+      top: -6px;
+    }
+  </style>
+  <title>Chen Jicheng</title>
+</head>
+
+<body>
+  <div id="content">
+    <a>This website is under construction.</a><br>
+    <a id="link" href="https://blog.chenjicheng.com/">go to blog</a><br>
+    <br>
+    <div id="bar"></div>
+    <div id="progress"></div>
+  </div>
+</body>
+<script>
+  n = 500;
+  a = 100 / n;
+  x = 0;
+  function go() {
+    x = x + a;
+    document.getElementById("progress").style.width = x.toString() + "%";
+    if (x >= 99.5) {
+      location.href = "https://blog.chenjicheng.com/";
+    }
+    else {
+      setTimeout(go, 10);
+    }
+  }
+  setTimeout(go, 10);
+</script>
+
+</html>
