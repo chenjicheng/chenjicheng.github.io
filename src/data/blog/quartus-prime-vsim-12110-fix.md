@@ -11,6 +11,8 @@ tags:
 description: "修复 Quartus Prime 仿真中 vsim-12110 错误和 signal not found in VCD 警告的方法"
 ---
 
+## Table of contents
+
 # Fuck Intel
 **注意！本篇文章已经违反 EULA（最终用户许可协议），本篇内容所涉及的操作将会违反该软件 EULA 中的以下内容以及可能违反其他我没仔细看的内容！**
 ```

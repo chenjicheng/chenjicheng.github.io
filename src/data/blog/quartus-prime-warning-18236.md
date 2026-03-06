@@ -10,6 +10,8 @@ tags:
 description: "消除 Quartus Prime 中 Warning (18236) 处理器数量未指定的警告"
 ---
 
+## Table of contents
+
 ## 解决办法
 在 Quartus 安装目录下的 `assignment_defaults.qdf` 添加如下内容
 ```

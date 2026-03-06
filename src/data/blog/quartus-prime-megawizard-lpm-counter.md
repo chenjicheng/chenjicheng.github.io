@@ -11,6 +11,8 @@ tags:
 description: "使用 Quartus Prime MegaWizard Plug-In Manager 创建 VHDL IP核变体的完整步骤"
 ---
 
+## Table of contents
+
 ## 查找 LPM_COUNTER
 创建原理图后，在 `IP Catalog` 窗口搜索 `LPM_COUNTER` 。
 ![IP Catalog 搜索](./images/megawizard/ip-catalog-search.png)
